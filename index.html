@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <title>Big Matic Yamaha</title>
+</head>
+
+<body style="min-height: 1000px;">
+    <div class="container w3-white w3-card-4">
+        <img src="asset/banner.jpg" alt="Gambar Backgorund Hitam" style="width: 100%; height: 350px;">
+    </div>
+    <div class="container w3-black">
+        <center>
+            <h1 style="color: white;">Macam Macam Motor Big Matic Yamaha</h1>
+        </center>
+    </div>
+    <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="tujuanKota('profile')">Profile</button>
+        <button class="w3-bar-item w3-button" onclick="tujuanKota('bigmatic1')">Nmax</button>
+        <button class="w3-bar-item w3-button" onclick="tujuanKota('bigmatic2')">Aerox</button>
+        <button class="w3-bar-item w3-button" onclick="tujuanKota('bigmatic3')">Tricity</button>
+        <button class="w3-bar-item w3-button" onclick="tujuanKota('bigmatic4')">Xmax</button>
+        <button class="w3-bar-item w3-button" onclick="tujuanKota('bigmatic5')">Tmax</button>
+    </div>
+    <div id="Profile" class="w3-container kota" style="display: block;">
+        <center>
+            <h2>Welcome To My Web</h2>
+        </center>
+    </div>
+    <div id="profile" class="w3-container kota" style="display: none;">
+        <center>
+            <img src="asset/1.jpg" alt="gambar saya" style="width: 150px; margin-top: 20px;">
+            <p>
+            <h2>Nama : Feri Setiawan Gojali Putra</h2>
+            <h2>Nim : 10122141</h2>
+            <h2>Kelas : IF 4</h2>
+            </p>
+        </center>
+    </div>
+    <div id="bigmatic1" class="w3-container kota w3-animate-bottom" style="display: none;">
+        <center>
+            <img src="asset/Nmax.png" alt="Gambar Nmax" style="width: 250px; margin-top: 20px;">
+            <p>Yamaha NMAX (Generasi sebelumnya bernama XEON 125) adalah sebuah skuter yang bertransmisi otomatis yang diproduksi oleh Yamaha di Indonesia sejak tahun 2015 . Skuter ini pertama kali diluncurkan secara resmi pada tanggal 7 Februari 2015 di Sirkuit Sentul, Bogor, Jawa Barat.Basis produksi skuter ini berada di Indonesia dan sudah diekspor ke berbagai negara sebagai model skuter global Yamaha.</p>
+        </center>
+    </div>
+    <div id="bigmatic2" class="w3-container kota w3-animate-bottom" style="display: none;">
+        <center>
+            <img src="asset/Aerox.png" alt="Gambar Aerox" style="width: 250px; margin-top: 20px;">
+            <p>Yamaha Aerox adalah skuter pabrikan yang diproduksi oleh Yamaha sejak tahun 1997. Yamaha Aerox pertama kali diluncurkan dengan mesin satu silinder, berpendingin cairan, 2- tak. Di awal kehadirannya skuter ini hanya memiliki kapasitas 50cc 2-tak dan hanya beredar di Eropa. Ada dua pilihan mesin yaitu 50cc dan 100cc. Setelah itu lahir Yamaha Aerox generasi kedua dengan mesin yang sama 50cc, tapi dengan teknologi 4-tak dengan tetap mempertahankan konsep sporty. Yamaha Aerox sudah lama digunakan oleh paddock bike tim Yamaha Grand Prix Sepeda Motor, namun baru masuk dan beredar luas di Indonesia pada awal tahun 2017. Selain bertampang sporty, Yamaha Aerox juga terkenal sebagai skuter dengan tenaga powerfull dan lincah saat bermanuver.</p>
+        </center>
+    </div>
+    <div id="bigmatic3" class="w3-container kota w3-animate-bottom" style="display: none;">
+        <center>
+            <img src="asset/Tricity.jpeg" alt="Gambar Tricity">
+            <p>Dengan sasis ringkas, bobot rendah, dan ABS standar, Tricity 3-wheel 155 memadukan ketangkasan skuter dengan tambahan kepercayaan berkendara dan perasaan stabil. Roda depannya yang berjarak dekat sehingga bermanuver di lalu lintas bukanlah masalah dan untuk menambah kenyamanan ada rem baru.</p>
+        </center>
+    </div>
+    <div id="bigmatic4" class="w3-container kota w3-animate-bottom" style="display: none;">
+        <center>
+            <img src="asset/Xmax.jpg" alt="Gambar Xmax">
+            <p>Yamaha XMax tersedia dalam pilihan mesin Petrol di Indonesia Scooter baru dari Yamaha hadir dalam 2 varian. Bicara soal spesifikasi mesin Yamaha XMax, ini ditenagai dua pilihan mesin Petrol berkapasitas 249 cc. XMax tersedia dengan transmisi CVT tergantung variannya. XMax adalah Scooter 2 seater dengan panjang 2185 mm, lebar 775 mm, wheelbase 1540 mm. serta ground clearance 135 mm.</p>
+        </center>
+    </div>
+    <div id="bigmatic5" class="w3-container kota w3-animate-bottom" style="display: none;">
+        <center>
+            <img src="asset/Tmax.jpg" alt="Gambar Tmax">
+            <p>Yamaha TMax merupakan kasta tertinggi di lini skutik maxi Yamaha. Menggendong mesin bertenaga dengan kapasitas 530 cc, tak berlebihan jika skuter ini disebut sebagai pilihan skutik bermesin terbesar dan tercanggih untuk turing. Motor ini dijual dengan banderol lebih dari Rp 300 jutaan untuk versi terbarunya, TMax DX, dan sudah laku 60 unit.
+
+            Di tanah air, motor ini bersaing dengan BMW C650 GT, dengan fitur yang sangat lengkap mulai dari kendali traksi hingga ABS. Karena itu, tidak heran kalau motor ini dibanderol sangat tinggi. Motor gede ini sudah hadir di Indonesia sejak November 2017.</p>
+        </center>
+    </div>
+</body>
+<script>
+    function tujuanKota(namakota) {
+        var i;
+        var x = document.getElementsByClassName('kota')
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(namakota).style.display = 'block';
+    }
+</script>
+
+</html>
